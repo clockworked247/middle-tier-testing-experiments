@@ -122,6 +122,26 @@ Sinon.js the mocha of mocking, stubbing, spying
   js input -> db-client -> Nock ML (or leave ML)
 
 - Some with ML, some with Noch
-  ->
+
+
+=======================================================================
+Wednesday June 17, 2015 Update
+=======================================================================
+After experimenting with request vs supertest & should vs chai.should(), we've decided
+that it's best to stick with the following technology for our middle tier testing:
+
+ * Supertest - plugs in really seamlessly into Express for testing.  Also has added advantage
+ over request with it's ease of use with respect to session handling.  Devs can
+ easily create an agent to make separate requests to routes.   Each agent will have it's
+ own session associated with it and we can intermingle tests for different users to
+ ensure our session handling is working as expected.
+
+ * Chai.should() cleaner and more intuitive syntax than should library.  Already used
+ today by SS, so easy choice over what the supertest sample code was doing with should.
+
+ * Next step seems to be to decide where the process aggregator will sit within our architecture.
+
+
+
 
 
