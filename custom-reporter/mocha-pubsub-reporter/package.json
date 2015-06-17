@@ -1,0 +1,30 @@
+{
+  "name": "mocha-pubsub-reporter",
+  "description": "PubSub reporter for Mocha",
+  "version": "0.0.1",
+  "author": {
+    "name": "Scott Brooks",
+    "email": "sbrooks@marklogic.com"
+  },
+  "keywords": [
+    "mocha",
+    "reporter",
+    "pubsub",
+    "coverage"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {},
+  "readme": "ERROR: No README data found!",
+  "_id": "mocha-pubsub-reporter@0.0.1",
+  "_shasum": "bda1f3cf80ec72eb3e87e5637a498ab6ba291ca5",
+  "_resolved": "mocha-pubsub-reporter-0.0.1.tgz",
+  "_from": "mocha-pubsub-reporter-0.0.1.tgz"
+}

@@ -1,0 +1,33 @@
+{
+  "name": "test-experiments",
+  "version": "0.0.1",
+  "description": "",
+  "main": "sample.js",
+  "dependencies": {
+    "assert": "^1.3.0",
+    "body-parser": "^1.12.4",
+    "chai": "^3.0.0",
+    "cookie-parser": "^1.3.5",
+    "express": "^4.12.4",
+    "express-session": "^1.11.2",
+    "gulp-plumber": "^1.0.1",
+    "mocha": "^2.2.5",
+    "mocha-lcov-reporter": "0.0.2",
+    "mocha-pubsub-reporter": "file:mocha-pubsub-reporter-0.0.1.tgz",
+    "nock": "^2.4.1",
+    "request": "^2.57.0",
+    "should": "^6.0.3",
+    "superagent": "^1.2.0",
+    "supertest": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-mocha": "^2.1.1",
+    "mocha-multi": "^0.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
