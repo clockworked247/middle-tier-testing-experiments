@@ -16,7 +16,7 @@ var reporterOptions = {
 };
 
 gulp.task('default', function () {
-  return gulp.src('server-and-tests-with-request.js')
+  return gulp.src('server-and-tests.js')
     .pipe(mocha({reporter: 'mocha-multi', reporterOptions: reporterOptions}))
     .once('error', function (err) {
       handleError(err);
